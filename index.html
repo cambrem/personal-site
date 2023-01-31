@@ -5,23 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Cam Bremner</title>
     <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
-    <div class="hero-img"></div>
-    <div class="wrapper">
-        <header>
-            <a href="#" class="name">Cam Bremner</a>
-        </header>
+    <header>
+        <a href="/" class="site_title">Cam <span>Bremner</span></a>
+        <nav class="nav">
+            <ul>
+                <li><a href="/src/about">About</a></li>
+                <li><a href="/src/projects">Projects</a></li>
+                <li><a href="/src/blog">Blog</a></li>
+            </ul>
+            <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M12 2c5.53 0 10 4.47 10 10s-4.47 10-10 10S2 17.53 2 12S6.47 2 12 2m3.59 5L12 10.59L8.41 7L7 8.41L10.59 12L7 15.59L8.41 17L12 13.41L15.59 17L17 15.59L13.41 12L17 8.41L15.59 7Z" />
+            </svg>
+        </nav>
+        <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z"
+                fill="white" />
+        </svg>
+    </header>
+    <script>
+        const menu = document.querySelector('.menu');
+        const close = document.querySelector('.close');
+        const nav = document.querySelector('nav');
+        
+        menu.addEventListener('click', () => {
+            nav.classList.add('open-nav');
+        })
 
-        <section class="hero">
-            <h1>My Website</h1>
-            <p class="subhead">A collection of projects and ideas</p>
-
-        </section>
-    </div>
+        close.addEventListener('click', () => {
+            nav.classList.remove('open-nav');
+        })
+    </script>
 </body>
-
 </html>
