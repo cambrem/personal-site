@@ -68,12 +68,26 @@ nav {
 
 .hero {
     color:rgb(207, 207, 207);
-    
+        
     img {
         height: 250px;
         object-fit: cover;
     }
 }
+
+.about-hero {
+    display: flex;
+    align-items: center;
+
+    img {
+        border-radius: 10px;
+        margin-right: 1rem;
+        object-fit: fill;
+        width: 3.5rem;
+        height: 100%;
+      }
+  }
+  
 
 .feature {
     color: rgb(207, 207, 207);
@@ -144,8 +158,8 @@ nav {
 }
 
 @media only screen and (min-width: 1200px) {
-    .wrapper {
-        width: 1200px;
+    body {
+        width: 1000px;
         margin: 0 auto;
     }
 }
