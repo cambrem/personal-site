@@ -28,11 +28,50 @@
                 fill="white" />
         </svg>
     </header>
+    <main>
+        <section class="hero">
+            <h1>Portfolio site</h1>
+        </section>
+        <section class="page_content">
+            <div class="componant">
+                <h2>About Me</h2>
+                <p>I grew up in New York, and now am working remotely from Vermont</p>
+                <a class="more_info" href="/src/about">Read more</a>
+            </div>
+            <div class="componant">
+                <h2>Recent Projects</h2>
+                <ul>
+                    <li>
+                        <a href="http://localhost:3000/" target="_blank" rel="noopener">Project 1</a>
+                    </li>
+                </ul>
+                <a class="more_info" href="/src/projects">See more</a>
+            </div>
+            <!-- 
+              <div class="section">
+                <h2>Posts</h2>
+              </div>
+            -->
+            <div class="componant">
+                <h2>Connect with me</h2>
+                <div class="contact_info">
+                    <div class="contact__item">
+                        <span>Email:</span>
+                        <span>cajbremner at gmail.com</span>
+                    </div>
+                    <div class="contact__item">
+                        <span>GitHub:</span>
+                        <a href="https://github.com/cambrem" target="_blank" rel="noopener">cambrem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script>
         const menu = document.querySelector('.menu');
         const close = document.querySelector('.close');
         const nav = document.querySelector('nav');
-        
+
         menu.addEventListener('click', () => {
             nav.classList.add('open-nav');
         })
@@ -42,4 +81,5 @@
         })
     </script>
 </body>
+
 </html>
