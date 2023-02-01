@@ -68,6 +68,11 @@ nav {
 
 .hero {
     color:rgb(207, 207, 207);
+    
+    img {
+        height: 250px;
+        object-fit: cover;
+    }
 }
 
 .feature {
