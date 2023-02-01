@@ -69,13 +69,13 @@ nav {
 .hero {
     color:rgb(207, 207, 207);
         
-    img {
-        height: 250px;
-        object-fit: cover;
-    }
 }
 
-.about-hero {
+.about_hero {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color:rgb(207, 207, 207);
+    font-size: 1.3em;
     display: flex;
     align-items: center;
 
@@ -88,6 +88,10 @@ nav {
       }
   }
   
+.page_content {
+    line-height: 2;
+    font-size: 1.2em;
+}
 
 .feature {
     color: rgb(207, 207, 207);
@@ -98,6 +102,8 @@ nav {
     a {
         color: rgb(207, 207, 207)
     }
+
+  
 }
 
 
@@ -146,13 +152,6 @@ nav {
                 }
             }
         }
-    }
-    
-    section.hero {
-        color: rgb(211, 211, 211);
-        height: auto;
-        width: 40%;
-        margin-bottom: 8em;
     }
 
 }
