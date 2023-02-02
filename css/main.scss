@@ -197,6 +197,10 @@ nav {
     font-weight: 500;
     line-height: 2;
     transition: opacity 0.15s ease-in-out;
+
+    &:hover {
+        text-decoration: underline;
+    }
   }
   
   .project__gist {

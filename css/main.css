@@ -178,6 +178,9 @@ nav .close {
   line-height: 2;
   transition: opacity 0.15s ease-in-out;
 }
+.project__title:hover {
+  text-decoration: underline;
+}
 
 .project__gist {
   display: block;
