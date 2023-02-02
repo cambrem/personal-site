@@ -85,10 +85,22 @@ nav .close {
   font-size: 1.2em;
 }
 
-.feature {
+.about_home {
   color: rgb(207, 207, 207);
 }
-.feature a {
+
+.projects_home {
+  color: rgb(207, 207, 207);
+}
+.projects_home .project_home {
+  text-decoration: none;
+  color: rgb(90, 139, 232);
+}
+.projects_home .project_home:hover {
+  text-decoration: underline;
+}
+
+.contact_home {
   color: rgb(207, 207, 207);
 }
 
@@ -99,11 +111,9 @@ nav .close {
   margin-top: 0;
   transition: padding 0.15s ease-in-out;
 }
-
 .more_info:hover {
   padding-left: 0.5rem;
 }
-
 .more_info:after {
   content: " →";
 }
@@ -112,7 +122,23 @@ nav .close {
   height: 250px;
 }
 
-/*Blog*/
+/* Contact Info */
+.contact__item {
+  color: rgb(135, 135, 135);
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  max-width: 21rem;
+}
+.contact__item a {
+  text-decoration: none;
+  color: rgb(90, 139, 232);
+}
+.contact__item a:hover {
+  text-decoration: underline;
+}
+
+/* Blog */
 .blog_page_content {
   --spacing: 0.5rem;
   color: rgb(211, 211, 211);

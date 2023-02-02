@@ -93,14 +93,25 @@ nav {
     font-size: 1.2em;
 }
 
-.feature {
+.about_home {
+    color: rgb(207, 207, 207);
+}
+
+.projects_home {
     color: rgb(207, 207, 207);
 
-    a {
-        color: rgb(207, 207, 207)
-    }
+    .project_home {
+        text-decoration: none;
+        color:rgb(90, 139, 232);
 
-  
+        &:hover {
+            text-decoration: underline;
+          }
+    }
+}
+
+.contact_home {
+    color: rgb(207, 207, 207);
 }
 
 .more_info {
@@ -109,22 +120,39 @@ nav {
     color:rgb(90, 139, 232);
     margin-top: 0;
     transition: padding 0.15s ease-in-out;
-  }
-  
-  .more_info:hover {
-    padding-left: 0.5rem;
-  }
-  
-  .more_info:after {
-    content: ' →';
-  }
 
+    &:hover {
+        padding-left: 0.5rem;
+      }
+      
+      &:after {
+        content: ' →';
+      }
+  }
 
 .portrait {
     height: 250px;
 }
 
-/*Blog*/
+/* Contact Info */
+.contact__item {
+    color:rgb(135, 135, 135);
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    max-width: 21rem;
+
+    a {
+        text-decoration: none;
+        color: rgb(90, 139, 232);
+
+        &:hover {
+            text-decoration: underline;
+          }
+    }
+  }
+
+/* Blog */
 
 .blog_page_content {
     --spacing: 0.5rem;
