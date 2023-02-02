@@ -189,12 +189,8 @@ nav {
     display: inline-block;
     font-size: 1.125rem;
     font-weight: 500;
-    line-height: 1.45;
+    line-height: 2;
     transition: opacity 0.15s ease-in-out;
-
-    &:hover {
-        opacity: 0.8;
-      }
   }
   
   .project__gist {
