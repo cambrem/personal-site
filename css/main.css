@@ -1,9 +1,4 @@
-@charset "UTF-8";
-body {
-  margin: 1.5em;
-  background-color: rgb(38, 38, 38);
-}
-
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -21,6 +16,12 @@ header .menu {
   width: 2.5em;
   margin-top: -0.6em;
   cursor: pointer;
+}
+
+/* Body */
+body {
+  margin: 1.5em;
+  background-color: rgb(35, 35, 35);
 }
 
 /* Navigation */
@@ -79,7 +80,7 @@ nav .close {
 }
 .projects_home .project_home {
   text-decoration: none;
-  color: rgb(90, 139, 232);
+  color: rgb(134, 134, 134);
 }
 .projects_home .project_home:hover {
   text-decoration: underline;
@@ -92,15 +93,15 @@ nav .close {
 .more_info {
   font-weight: 500;
   text-decoration: none;
-  color: rgb(90, 139, 232);
+  color: rgb(76, 94, 131);
   margin-top: 0;
   transition: padding 0.15s ease-in-out;
 }
 .more_info:hover {
-  padding-left: 0.5rem;
+  padding-left: 0.3rem;
 }
 .more_info:after {
-  content: " →";
+  content: " >";
 }
 
 .portrait {
@@ -117,7 +118,7 @@ nav .close {
 }
 .contact__item a {
   text-decoration: none;
-  color: rgb(90, 139, 232);
+  color: rgb(72, 145, 100);
 }
 .contact__item a:hover {
   text-decoration: underline;
