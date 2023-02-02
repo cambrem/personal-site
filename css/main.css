@@ -85,6 +85,7 @@ nav .close {
   font-size: 1.2em;
 }
 
+/* Home */
 .about_home {
   color: rgb(207, 207, 207);
 }
@@ -136,6 +137,11 @@ nav .close {
 }
 .contact__item a:hover {
   text-decoration: underline;
+}
+
+/* About */
+.about_text {
+  color: rgb(207, 207, 207);
 }
 
 /* Blog */
