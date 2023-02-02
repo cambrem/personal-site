@@ -59,33 +59,16 @@ nav .close {
   transform: translateX(0%);
 }
 
-.hero {
-  color: rgb(207, 207, 207);
-}
-
-.about_hero {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  color: rgb(207, 207, 207);
-  font-size: 1.3em;
-  display: flex;
-  align-items: center;
-}
-.about_hero img {
-  border-radius: 10px;
-  margin-right: 1rem;
-  -o-object-fit: fill;
-     object-fit: fill;
-  width: 3.5rem;
-  height: 100%;
-}
-
 .page_content {
   line-height: 2;
   font-size: 1.2em;
 }
 
 /* Home */
+.home_hero {
+  color: rgb(207, 207, 207);
+}
+
 .about_home {
   color: rgb(207, 207, 207);
 }
@@ -140,11 +123,78 @@ nav .close {
 }
 
 /* About */
+.about_hero {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(207, 207, 207);
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+.about_hero img {
+  border-radius: 10px;
+  margin-right: 1rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 3.5rem;
+  height: 100%;
+}
+
 .about_text {
   color: rgb(207, 207, 207);
 }
 
+/* Projects */
+.projects_hero {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(207, 207, 207);
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+.project_page_content {
+  --spacing: 0.5rem;
+  color: rgb(211, 211, 211);
+  display: grid;
+  gap: 1rem;
+}
+
+.project_entry {
+  padding: 0.875rem;
+  background: rgb(43, 43, 43);
+  border-radius: 0.5rem;
+}
+
+.project__title {
+  text-decoration: none;
+  color: rgb(135, 135, 135);
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.45;
+  transition: opacity 0.15s ease-in-out;
+}
+.project__title:hover {
+  opacity: 0.8;
+}
+
+.project__gist {
+  display: block;
+  margin-bottom: var(--spacing);
+}
+
 /* Blog */
+.blog_hero {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(207, 207, 207);
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
 .blog_page_content {
   --spacing: 0.5rem;
   color: rgb(211, 211, 211);
@@ -167,7 +217,6 @@ nav .close {
   line-height: 1.45;
   transition: opacity 0.15s ease-in-out;
 }
-
 .blog__title:hover {
   opacity: 0.8;
 }
