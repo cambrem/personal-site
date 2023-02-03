@@ -26,6 +26,10 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+main {
+  margin-bottom: 5em;
+}
+
 /* Navigation */
 nav {
   position: fixed;
