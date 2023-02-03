@@ -108,6 +108,7 @@ nav {
 
 .more_info {
     font-weight: 500;
+    font-size: 1.2em;
     text-decoration: none;
     color: rgb(76, 94, 131);
     margin-top: 0;
@@ -165,6 +166,7 @@ nav {
 
 .about_text {
     color:rgb(207, 207, 207);
+    font-size: 1.15em;
 }
 
 /* Projects */
@@ -195,7 +197,7 @@ nav {
     text-decoration: none;
     color:rgb(135, 135, 135);
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     font-weight: 500;
     line-height: 2;
     transition: opacity 0.15s ease-in-out;
@@ -208,6 +210,7 @@ nav {
   .project__gist {
     display: block;
     margin-bottom: var(--spacing);
+    font-size: 1.15em;
   }
 
 
