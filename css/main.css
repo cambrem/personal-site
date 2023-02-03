@@ -2,7 +2,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 header .site_title {
   color: rgb(197, 197, 197);
