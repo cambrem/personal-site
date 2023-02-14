@@ -196,8 +196,8 @@ nav .close {
   font-size: 1.15em;
 }
 
-/* Blog */
-.blog_hero {
+/* Journal */
+.journal_hero {
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: rgb(207, 207, 207);
@@ -206,20 +206,20 @@ nav .close {
   align-items: center;
 }
 
-.blog_page_content {
+.journal_page_content {
   --spacing: 0.5rem;
   color: rgb(211, 211, 211);
   display: grid;
   gap: 1rem;
 }
 
-.blog__post {
+.journal__entry {
   padding: 0.875rem;
   background: rgb(43, 43, 43);
   border-radius: 0.5rem;
 }
 
-.blog__title {
+.entry__title {
   text-decoration: none;
   color: rgb(135, 135, 135);
   display: inline-block;
@@ -228,18 +228,18 @@ nav .close {
   line-height: 1.45;
   transition: opacity 0.15s ease-in-out;
 }
-.blog__title:hover {
+.entry__title:hover {
   opacity: 0.8;
 }
 
-.blog__date {
+.entry__date {
   display: block;
   margin-right: 0.75rem;
   margin: 0.125rem 0 0.5rem;
   font-size: 0.875rem;
 }
 
-.blog__gist {
+.entry__gist {
   display: block;
   margin-bottom: var(--spacing);
 }
