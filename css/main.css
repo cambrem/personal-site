@@ -111,10 +111,6 @@ nav .close {
   content: " >";
 }
 
-.portrait {
-  height: 250px;
-}
-
 /* Contact Info */
 .contact__item {
   color: rgb(135, 135, 135);
@@ -145,7 +141,7 @@ nav .close {
   margin-right: 1rem;
   -o-object-fit: fill;
      object-fit: fill;
-  width: 3.5rem;
+  width: 10rem;
   height: 100%;
 }
 
