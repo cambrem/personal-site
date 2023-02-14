@@ -136,7 +136,7 @@ nav .close {
   display: flex;
   align-items: center;
 }
-.about_hero img {
+.about_hero .portrait {
   border-radius: 10px;
   margin-right: 1rem;
   -o-object-fit: fill;
