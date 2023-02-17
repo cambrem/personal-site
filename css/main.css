@@ -180,7 +180,7 @@ nav .close {
   font-size: 1.65rem;
   font-weight: 500;
   line-height: 2;
-  transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.16s ease-in-out;
 }
 .project__title:hover {
   text-decoration: underline;
