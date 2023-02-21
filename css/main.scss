@@ -187,13 +187,13 @@ nav {
     gap: 1rem;
   }
   
-  .portfolio_entry {
+  .project {
     padding: 0.875rem;
     background: rgb(43, 43, 43);
     border-radius: 0.5rem;
   }
   
-  .portfolio__title {
+  .project__title {
     text-decoration: none;
     color:rgb(135, 135, 135);
     display: inline-block;
@@ -207,7 +207,7 @@ nav {
     }
   }
   
-  .portfolio__gist {
+  .project__gist {
     display: block;
     margin-bottom: var(--spacing);
     font-size: 1.15em;
