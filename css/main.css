@@ -81,14 +81,14 @@ nav .close {
   color: rgb(207, 207, 207);
 }
 
-.projects_home {
+.portfolio_home {
   color: rgb(207, 207, 207);
 }
-.projects_home .project_home {
+.portfolio_home .portfolio_home {
   text-decoration: none;
   color: rgb(134, 134, 134);
 }
-.projects_home .project_home:hover {
+.portfolio_home .portfolio_home:hover {
   text-decoration: underline;
 }
 
@@ -150,8 +150,8 @@ nav .close {
   font-size: 1.15em;
 }
 
-/* Projects */
-.projects_hero {
+/* Portfolio */
+.portfolio_hero {
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: rgb(207, 207, 207);
@@ -160,20 +160,20 @@ nav .close {
   align-items: center;
 }
 
-.project_page_content {
+.portfolio_page_content {
   --spacing: 0.5rem;
   color: rgb(211, 211, 211);
   display: grid;
   gap: 1rem;
 }
 
-.project_entry {
+.portfolio_entry {
   padding: 0.875rem;
   background: rgb(43, 43, 43);
   border-radius: 0.5rem;
 }
 
-.project__title {
+.portfolio__title {
   text-decoration: none;
   color: rgb(135, 135, 135);
   display: inline-block;
@@ -182,11 +182,11 @@ nav .close {
   line-height: 2;
   transition: opacity 0.16s ease-in-out;
 }
-.project__title:hover {
+.portfolio__title:hover {
   text-decoration: underline;
 }
 
-.project__gist {
+.portfolio__gist {
   display: block;
   margin-bottom: var(--spacing);
   font-size: 1.15em;
